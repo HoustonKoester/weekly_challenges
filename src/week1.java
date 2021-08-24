@@ -35,7 +35,7 @@ public class week1 {
         }
         //add remaining bucket post for loop
         buckets.add(bucket);
-        
+
         //return logic + print for testing
         System.out.println(buckets);
         return buckets;
