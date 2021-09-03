@@ -42,11 +42,7 @@ public class week2 {
             sum+=reverse[i];
             i++;
         }
-        if(10 - sum%10 != checksum ){
-            result = false;
-        }else{
-            result = true;
-        }
+        result = 10 - sum % 10 == checksum;
         System.out.println(result);
     return false;
     }

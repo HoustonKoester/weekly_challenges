@@ -15,7 +15,7 @@ public class week1 {
 
         //business logic
         for(int i=0; i<words.length; i++) {
-            // return empty buckets if total word length is more than the max size allowed
+            /* return empty buckets if total word length is more than the max size allowed */
             if(words[i].length() > maxsize) {
                 buckets.clear();
                 return buckets;
